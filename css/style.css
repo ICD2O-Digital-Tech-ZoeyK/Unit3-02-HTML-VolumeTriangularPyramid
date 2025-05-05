@@ -2,3 +2,34 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 70px;
+}
+body {
+    background-color: rgb(115, 189, 212);
+}
+
+h1 {
+    background-color: rgb(93, 157, 187);
+    color: #2c5f81;
+    padding: 40px;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
